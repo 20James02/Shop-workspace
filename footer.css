@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+.footer {
+    width: 1350px;
+    height: auto;
+    padding: 25px 50px;
+    background: rgb(255, 255, 255);
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.footer .container{
+    padding: 25px 50px;
+    border: 1px solid rgb(222, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+.footer  .container .content.about-us {
+    width: 40%;
+  }
+  
+.footer  .container .us li{
+    padding-left: 2.0em;
+  }
+  
+  
+.content.footer_support {
+    width: 200px;
+  }
+ 
+.us {
+    height: 200px;
+  } 
+.com {
+    display: inline-block;
+}
+  
+.footer h3{
+    position: relative;
+    margin-bottom: 15px;
+}
+.footer h3:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 75px;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
+    background-image: linear-gradient(to right, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
+  }
+  
+.footer ul{
+    list-style-type: none;
+  }
+.ul_contact li {
+    display: inline-block;
+  }
+  
+.support-li a {
+    text-decoration: none;
+    color: gray;
+  
+  }
+  
+  
+@media only screen and (max-width: 550px){
+    .footer{
+      width: 500px;
+      padding: 0;
+    }
+    .footer h3 {
+      display: none;
+    }  
+    .contact {
+      display: none;
+    }
+    .support-list {
+      width: 500px;
+      position: relative;
+      bottom: 150px;
+    }
+    .support-li {
+      text-align: center;
+      width: 220px;
+      display: inline-block;
+      padding: 10px;
+    }
+    .team {
+      display: none;
+      text-align: center;
+    }
+    .us p {
+      text-align: center;
+      position: relative;
+      top: 250px;
+      width: 500px;
+    }
+    .info {
+      width: 500px;
+      text-align: center;
+    }
+    .footer .container{
+      display: unset;
+      border: none;
+      padding: 0;
+    }
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media only screen and (min-width: 550px){
+    #moblie {
+      display: none;
+    }
+  }

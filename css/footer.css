@@ -1,7 +1,7 @@
 
 .footer {
   position: relative;
-  width: 1480px;
+  width: 1490px;
   height: auto;
   background: rgb(255, 255, 255);
   display: flex;
@@ -11,7 +11,7 @@
   padding: 25px 50px;
   width: 1480px;
   margin-top: 20px;
-  border: 1px solid rgb(222, 222, 222);
+  border-top: 1px solid rgb(222, 222, 222);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;

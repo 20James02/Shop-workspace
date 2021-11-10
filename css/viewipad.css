@@ -1,0 +1,49 @@
+@media screen and (max-width: 1400px) {
+    .avt {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .main {
+        float: none;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .box-sale {
+        max-width: 1023px;
+        width: 95%;
+    }
+    .sub-items {
+        grid-template-columns: unset;
+        grid-auto-flow: column;
+        grid-auto-columns: 20%;
+        overflow-x: auto;
+    }
+    .mySlides {
+        width: 0px;
+        height: 0px;
+        display: none;
+        margin: 0px;
+        grid-gap: 0;
+        grid-template: unset;
+    }
+    .slideshow{
+        display: none;
+        margin: 0;
+    }
+    
+    .footer {
+        width: 100%;
+    }
+    .footer-container {
+        width: 90%;
+    }
+    .contact {
+        display: none;
+    }
+    .accesor {
+        margin-left: 5px;
+    }
+
+}

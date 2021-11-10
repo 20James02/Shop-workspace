@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.product{
+     background: rgb(238, 235, 234);
+     width: auto ;
+     height: 1600px;
+}
+
+.row {
+    width: 1000px;
+    height: 700px;
+    background: #fff;
+  
+}
+.product-left {
+    width: 500px;
+    height: 700px;
+
+    float: left;
+}
+.row{
+    margin: auto;
+}
+
+.name p , .price p , .color p , .size p {
+    margin-top: 30px ;
+}
+
+.big img, .small img {
+    border: 1px solid #fff;
+}
+.button {
+    margin-top: 30px;
+} 
+ .haha {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid lime;
+}
+.haha:hover{
+    background: turquoise;
+    color: #fff;
+}
+  .soluong{
+    margin-top: 50px ;
+  }
+  input {
+    border: 1px solid lime;
+  }
+  .muahang {
+    padding: 8px;
+    border: 1px solid lime;
+  }
+  .muahang:hover {
+    background: turquoise;
+    color: #fff;
+  }
+
+
+
+ .information {
+    width: 1000px;
+    height: 800px;
+    background: #fff;
+    margin: auto;
+}
+
+.two {
+    
+    width: 960px;
+    height: 40px ;
+    margin-left: 15px;
+    line-height: 40px;
+    background:  rgb(236, 238, 238);;
+}
+ table{
+    border: 30px solid #fff;
+    margin-left: 40px;
+}
+ td {
+    height: 40px;
+    width: 130px;
+    
+}
+ tr:first-child {
+    color:  rgb(236, 238, 238);;
+}
+.four{
+    width: 960px;
+    height: 40px ;
+    margin: auto;
+    line-height: 40px;
+    background:  rgb(236, 238, 238);
+}
+.mota {
+    line-height: 3;
+    padding: 30px;
+}

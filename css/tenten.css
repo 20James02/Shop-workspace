@@ -5,7 +5,7 @@
 
 body {
     display: inline-block;
-    width: 1480px;
+    width: 100%;    
 }
 
 nav .logo{
@@ -53,6 +53,9 @@ nav .logo{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 36px;
 }
+.accesor {
+    margin-left: 40px;
+}
 .name-list {
     height: 80px;
     width: auto;
@@ -90,12 +93,13 @@ nav .logo{
 }
 .items-img {
     text-align: center;
+    background-size: cover;
 }
 
 .items img {
     object-fit: cover;
     width: 90%;
-    height: 180px;
+   
 }
 .items-content {
     margin: 10px 25px 0;
@@ -153,17 +157,7 @@ button:hover {
     background-color: rgb(83, 176, 204);
 }
 
-@media screen and (max-width: 1023px) {
-    .main {
-        float: left;
-    }
-    .sub-items {
-        grid-template-columns: unset;
-        grid-auto-flow: column;
-        grid-auto-columns: 20%;
-        overflow-x: auto;
-    }
-}
+
 @media screen and (max-width: 374px) {
     .sub-items {
         grid-template-columns: unset;

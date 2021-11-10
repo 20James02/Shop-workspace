@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+body {
+    width: 1480px;
+    display: inline-block;
+    /*Hello*/
+}
 
 nav .logo{
     width:50px;

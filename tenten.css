@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body {
+    display: inline-block;
+    width: 1480px;
+}
 
 nav .logo{
     width:50px;

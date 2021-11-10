@@ -1,49 +1,64 @@
 @media screen and (max-width: 1400px) {
     .avt {
-        width: 100%;
+        width: 72%;
         align-items: center;
         margin: 0;
-    }
-    
+        float: right;
+    }  
     .main {
-        float: none;
-        width: 90%;
+        float: right;
+        width: 95%;
         margin-left: 20px;
     }
     .box-sale {
-        max-width: 1023px;
+        max-width: 95%;
         width: 95%;
     }
-    .sub-items {
+    .sale-items {
         grid-template-columns: unset;
         grid-auto-flow: column;
         grid-auto-columns: 20%;
         overflow-x: auto;
     }
+    .sub-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        overflow-x: auto;
+    }
+    .hid-1 {
+        display: none;
+    }
     .mySlides {
-        width: 0px;
-        height: 0px;
-        display: none;
-        margin: 0px;
-        grid-gap: 0;
-        grid-template: unset;
+        display: flex;
+        flex-direction: column;
     }
-    .slideshow{
-        display: none;
-        margin: 0;
+    .slideshow {
+        width: 250px;
+        margin-bottom: 20px;
     }
-    
+    .sl1, .sl2, .sl3, .sl4, .sl7, .sl9, .sl10, .sl12 {
+        display: none;
+    }
     .footer {
         width: 100%;
     }
     .footer-container {
-        width: 90%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .contact {
         display: none;
     }
-    .accesor {
-        margin-left: 5px;
+    .contact-info {
+       grid-column: 2/4;
+       grid-row: 2/3;
     }
-
+    .footer-support {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .accesor {
+        margin-left: 28px;   
+    }
 }

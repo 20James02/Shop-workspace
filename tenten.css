@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
 }
-
+body {
+    width: 1480px;
+    display: inline-block;
+}
 nav .logo{
     width:50px;
     border: 1px #d4d4d4 solid;

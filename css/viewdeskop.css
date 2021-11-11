@@ -1,30 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
     body {
         display: inline-block;
         width: 100%;  
         overflow-x: hidden; 
-    }
-    nav .logo{
-        width:50px;
-        border: 1px #d4d4d4 solid;
-        padding: 7px;
-        border-radius:50%;
-        -moz-border-radius:50%;
-        -webkit-border-radius:50%;
-    }
-    .navbar .nav-item:hover a {
-        background:pink;
-        color:red;
-    }
-    .dropdown-menu .dropdown-item:hover a{
-        background:gray;
-        color:black;
-    }
-    .header{
-        position: fixed;
     }
     .main {
         margin-left: auto;
@@ -402,37 +383,34 @@
         50% {margin-left: -540px;}
         60% {margin-left: -1060px;}
         80% {margin-left: -1080px;}
-    }
-
-    
+    }   
 .footer {
     position: relative;
     width: 100%;
     height: auto;
     background: rgb(255, 255, 255);
-  }
+}
 .footer-container {
     padding: 25px 30px;
     width: 100%;
 }  
-  .footer  .footer-container .about-us li{
+.footer  .footer-container .about-us li{
     padding-left: 30px;
-  }
+}
 .com {
     display: inline-block;
-  }
-  .com img{
+}
+.com img{
     vertical-align: unset;
     height: 45px;
     width: 150px;
-  }
-  .footer h3{
+}
+.footer h3{
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
-  }
-  
-  .footer h3:before{
+}
+.footer h3:before{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -441,25 +419,21 @@
     height: 2px;
     background-image: -webkit-linear-gradient(left, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
     background-image: linear-gradient(to right, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
-  }
-  
-  .footer ul{
+}
+.footer ul{
     list-style-type: none;
-  }
-  .ul_contact li {
+}
+.ul_contact li {
     display: inline-block;
-  }
-  
-  .support-li a {
+}
+.support-li a {
     text-decoration: none;
     color: gray;
-  }
-  
-  .support-li a:hover{
+}
+.support-li a:hover{
     text-decoration: none;
     color: rgba(128, 128, 128, 0.509);
-  }
-  
+  } 
 @media  screen and (min-width: 1400px) {
     .hid {
         display: none;

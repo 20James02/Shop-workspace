@@ -23,7 +23,6 @@
     }
     .sale-items {
         
-        overflow-x: auto;
     }
     .sub-items {
         display: grid;
@@ -49,21 +48,24 @@
     }
     .footer-container {
         width: 100%;
-        display: flex;
-        flex-wrap:nowrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 140px 140px;
     }
     .about-us {
-        flex-basis: 40%;
+        grid-column: 1/2;
+        grid-row: 1/3;  
     }
     .contact {
         display: none;
     }
     .contact-info {
-        flex-basis: 30%;
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
     .footer-support {
-        flex-basis: 25%;
-        align-self: flex-end;
+        grid-column: 2/3;
+        grid-row: 1/2;
     }
     .accesor {
         margin-left: 28px;   

@@ -90,9 +90,7 @@
         display: inline-block;
         font-family: 'Times New Roman', Times, serif;
     }
-    .hid {
-        display: none;
-    }
+    
     .items-img {
         text-align: center;
         background-size: cover;
@@ -413,17 +411,13 @@
     height: auto;
     background: rgb(255, 255, 255);
   }
-  
-  .footer  .footer-container .content.about-us {
-    width: 40%;
-  }
-  
+.footer-container {
+    padding: 25px 30px;
+    width: 100%;
+}  
   .footer  .footer-container .about-us li{
     padding-left: 30px;
   }
-  
-  
-
 .com {
     display: inline-block;
   }
@@ -467,10 +461,10 @@
   }
   
 @media  screen and (min-width: 1400px) {
+    .hid {
+        display: none;
+    }
     .footer .footer-container{
-        padding: 25px 30px;
-        width: 100%;
-        border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
       }

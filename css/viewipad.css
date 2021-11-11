@@ -14,10 +14,15 @@
         max-width: 95%;
         width: 95%;
     }
+    .accesor .sale-items {
+        display: flex;
+        justify-content: center;
+    }
+    .accesor .sale-items .items {
+            flex-basis: 22%;
+    }
     .sale-items {
-        grid-template-columns: unset;
-        grid-auto-flow: column;
-        grid-auto-columns: 20%;
+        
         overflow-x: auto;
     }
     .sub-items {
@@ -44,19 +49,21 @@
     }
     .footer-container {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap:nowrap;
+    }
+    .about-us {
+        flex-basis: 40%;
     }
     .contact {
         display: none;
     }
     .contact-info {
-       grid-column: 2/4;
-       grid-row: 2/3;
+        flex-basis: 30%;
     }
     .footer-support {
-        grid-column: 3/4;
-        grid-row: 1/2;
+        flex-basis: 25%;
+        align-self: flex-end;
     }
     .accesor {
         margin-left: 28px;   

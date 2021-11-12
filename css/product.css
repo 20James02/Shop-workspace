@@ -13,27 +13,45 @@ body {
 .container {   
     display: flex; 
 }
-.product-img {
-    width: 50%; 
-}
 .product-content {
-    width: 50%;
+    width: 45%;
     margin: 30px 0 0 30px;
 }
-.product-img-big {
-    width: 90%; 
-    margin: 0 auto;
+.preview {
+	display: flex;
+	flex-direction: column;
 }
-.product-img-big img {
-    width: 98%;
+.product-img {
+    margin-top: 50px;
+    width: 30%; 
 }
-.product-img-small {
-    width: 98%;
-    display: flex;
-    justify-content: space-around;
+.nav-tabs {
+	border: none;
+	margin-top: 15px;
 }
-.product-img-small img {
-    width: 20%;
+.nav-tabs li{
+	width: 18%;
+	margin-right: 2.5%;
+}
+.preview-thumbnail.nav-tabs img {
+	max-width: 100%;
+	display: block;
+}
+.preview-thumbnail.nav-tabs li a {
+	padding: 0;
+	margin: 0;
+	cursor:pointer;
+}
+.preview-thumbnail.nav-tabs li:last-of-type {
+	margin-right: 0;
+}
+.tab-content {
+	overflow: hidden;
+}
+.tab-content img {
+	width: 100%;
+	animation-name: opacity;
+  animation-duration: .3s;
 }
 .name-pro h2 {
     font-size: 30px;

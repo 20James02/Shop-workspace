@@ -30,6 +30,7 @@
         width: 95%;
         display: inline-block;
         align-items: center;
+        background-color: #fff;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         margin-top: 36px;
     }
@@ -117,7 +118,7 @@
     .items-button1 {
         background-color: rgb(86, 223, 233);
     }
-    button {
+    .items button {
         background-color: rgb(241, 101, 155);
         border: none;
         cursor: pointer;
@@ -127,7 +128,7 @@
         font-size: 15px;
         color: #fff;
     }
-    button:hover {
+    .items button:hover {
         background-color: rgb(221, 34, 121);
     }
     .items-button1:hover {
@@ -448,6 +449,7 @@
     width: 100%;
     height: auto;
     background: rgb(255, 255, 255);
+    margin-top: auto;
 }
 .footer-container {
     padding: 25px 30px;

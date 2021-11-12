@@ -1,103 +1,139 @@
-*{
-    padding: 0;
+body {
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+}
+.product {
+    width: 60%;
+    height: 1200px;
+    margin: 70px auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container {   
+    display: flex; 
+}
+.product-img {
+    width: 50%; 
+}
+.product-content {
+    width: 50%;
+    margin: 30px 0 0 30px;
+}
+.product-img-big {
+    width: 90%; 
     margin: 0 auto;
-    box-sizing: border-box;
 }
-
-.product{
-     background: rgb(238, 235, 234);
-     width: auto ;
-     height: 1600px;
+.product-img-big img {
+    width: 98%;
 }
-
-.row {
-    width: 1000px;
-    height: 700px;
-    background: #fff;
-  
+.product-img-small {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
 }
-.product-left {
-    width: 500px;
-    height: 700px;
-
-    float: left;
+.product-img-small img {
+    width: 20%;
 }
-.row{
-    margin: auto;
+.name-pro h2 {
+    font-size: 30px;
 }
-
-.name p , .price p , .color p , .size p {
-    margin-top: 30px ;
+.name-pro i {
+    font-size: 12px;
+    margin-left: 20px;
 }
-
-.big img, .small img {
-    border: 1px solid #fff;
+.cost-pro {
+    margin: 10px 0 20px;
 }
-.button {
-    margin-top: 30px;
-} 
- .haha {
+.cost-pro i {
+    color: rgb(212, 203, 149); 
+}
+.cost-pro p {
+    font-size: 40px;
+    
+    margin-left: 30px;
+}
+.img-color {
     width: 30px;
     height: 30px;
-    float: left;
-    border: 1px solid lime;
+    border-radius: 10px;
 }
-.haha:hover{
-    background: turquoise;
-    color: #fff;
+.img-color img {
+    width: 100%;
 }
-  .soluong{
-    margin-top: 50px ;
-  }
-  input {
-    border: 1px solid lime;
-  }
-  .muahang {
-    padding: 8px;
-    border: 1px solid lime;
-  }
-  .muahang:hover {
-    background: turquoise;
-    color: #fff;
-  }
+.color-pro {
+    margin: 10px;
+}
+.color-pro p span {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.color-pro p {
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+}
+.size-pro {
+    margin: 10px;
+}
+.text-size {
+    font-size: 16px;
+    font-weight: bold;
+}
+.size {
+    margin: 10px 25px
+}
+.a-size {
+    text-decoration: none;
+    border: 1px solid rgb(204, 56, 56);
+    cursor: pointer;
+    padding: 2px 8px;
+    margin: 0 3px;
+    border-radius: 10px;
+    background-color: white;
+}
+.size .a-size:active {
+    background-color: red;
+    cursor: pointer;
+    transform: 100s;
+}
 
-
-
- .information {
-    width: 1000px;
-    height: 800px;
-    background: #fff;
-    margin: auto;
+.inf-product {
+    margin: 80px 30px 10px;
+    border-top: 3px solid rgb(219, 92, 135) ;
 }
-
-.two {
-    
-    width: 960px;
-    height: 40px ;
-    margin-left: 15px;
-    line-height: 40px;
-    background:  rgb(236, 238, 238);;
+.button-content {
+    margin: 30px;
 }
- table{
-    border: 30px solid #fff;
-    margin-left: 40px;
+.but-order {
+    text-decoration: none;
+    cursor: pointer;
+    width: 30%;
+    background-color: rgb(241, 101, 155);
+    border: 1px solid rgb(241, 101, 155);
+    border-radius: 10px;
 }
- td {
-    height: 40px;
-    width: 130px;
-    
+.but-order p {
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    font-family: sans-serif;
+    margin: 18px 0;
 }
- tr:first-child {
-    color:  rgb(236, 238, 238);;
+.but-chat {
+    text-decoration: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 30px;
+    background-color: rgb(86, 223, 233);
+    border: 1px solid rgb(83, 176, 204);
+    border-radius: 10px;
 }
-.four{
-    width: 960px;
-    height: 40px ;
-    margin: auto;
-    line-height: 40px;
-    background:  rgb(236, 238, 238);
+.but-chat p {
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    font-family: sans-serif;
+    margin: 10px 0;
 }
-.mota {
-    line-height: 3;
-    padding: 30px;
+.but-chat i {
+    font-size: 20px;
+    margin-left: 5px;
 }

@@ -4,7 +4,7 @@ body {
 }
 .product {
     width: 60%;
-    height: 1200px;
+    height: 100%;
     margin: 70px auto;
     border-radius: 10px;
     background-color: white;
@@ -16,6 +16,9 @@ body {
 .product-content {
     width: 45%;
     margin: 30px 0 0 30px;
+}
+.container h2 {
+    font-family: 'Times New Roman', Times, serif;
 }
 .preview {
 	display: flex;
@@ -131,6 +134,9 @@ body {
 .inf-product {
     margin: 80px 30px 10px;
     border-top: 3px solid rgb(219, 92, 135) ;
+}
+.text-inf {
+    padding-bottom: 20px;
 }
 .button-content {
     display: flex;

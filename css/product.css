@@ -36,6 +36,7 @@ body {
 .preview-thumbnail.nav-tabs img {
 	max-width: 100%;
 	display: block;
+    border-radius: 5px;
 }
 .preview-thumbnail.nav-tabs li a {
 	padding: 0;
@@ -47,11 +48,12 @@ body {
 }
 .tab-content {
 	overflow: hidden;
+    border-radius: 10px;
 }
 .tab-content img {
 	width: 100%;
 	animation-name: opacity;
-  animation-duration: .3s;
+    animation-duration: .3s;
 }
 .name-pro h2 {
     font-size: 30px;
@@ -61,7 +63,7 @@ body {
     margin-left: 20px;
 }
 .cost-pro {
-    margin: 10px 0 20px;
+    margin: 10px 0;
 }
 .cost-pro i {
     color: rgb(212, 203, 149); 
@@ -114,43 +116,180 @@ body {
     cursor: pointer;
     transform: 100s;
 }
-
+.quantity {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.quantity p {
+    margin-top: 10px;
+}
+.select-quantity input {
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
 .inf-product {
     margin: 80px 30px 10px;
     border-top: 3px solid rgb(219, 92, 135) ;
 }
 .button-content {
-    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
+.but-custom   {
+    width: 30%;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
 .but-order {
-    text-decoration: none;
-    cursor: pointer;
+    background: rgb(241, 101, 155);
+    background: linear-gradient(0deg, rgb(236, 93, 181) 0%, rgb(241, 101, 155) 100%);
     width: 30%;
-    background-color: rgb(241, 101, 155);
-    border: 1px solid rgb(241, 101, 155);
-    border-radius: 10px;
-}
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
 .but-order p {
-    font-size: 20px;
-    color: rgb(216, 216, 216);
-    font-family: sans-serif;
-    margin: 18px 0;
-}
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+.but-order:before, .but-order:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: rgb(241, 101, 155);
+    transition: all 0.3s ease;
+  }
+.but-order:before {
+    height: 0%;
+    width: 2px;
+  }
+.but-order:after {
+    width: 0%;
+    height: 2px;
+  }
+.but-order:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+.but-order:hover:before {
+    height: 100%;
+  }
+.but-order:hover:after {
+    width: 100%;
+  }
+.but-order p:hover{
+     color: rgb(241, 101, 155);
+  }
+.but-order p:before, .but-order p:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: rgb(241, 101, 155);
+    transition: all 0.3s ease;
+  }
+.but-order p:before {
+    width: 2px;
+    height: 0%;
+  }
+.but-order p:after {
+    width: 0%;
+    height: 2px;
+  }
+.but-order p:hover:before {
+    height: 100%;
+  }
+.but-order p:hover:after {
+    width: 100%;
+  }
+
 .but-chat {
-    text-decoration: none;
-    cursor: pointer;
+    background: rgb(241, 101, 155);
+    background: linear-gradient(0deg, rgb(105, 194, 230) 0%, rgb(51, 179, 211) 100%);
     width: 30%;
-    margin-left: 30px;
-    background-color: rgb(86, 223, 233);
-    border: 1px solid rgb(83, 176, 204);
-    border-radius: 10px;
-}
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
 .but-chat p {
-    font-size: 20px;
-    color: rgb(216, 216, 216);
-    font-family: sans-serif;
-    margin: 10px 0;
-}
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+.but-chat:before, .but-chat:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: rgb(51, 179, 211);
+    transition: all 0.3s ease;
+  }
+.but-chat:before {
+    height: 0%;
+    width: 2px;
+  }
+.but-chat:after {
+    width: 0%;
+    height: 2px;
+  }
+.but-chat:hover{
+    background: transparent;
+    box-shadow: none;
+  }
+.but-chat:hover:before {
+    height: 100%;
+  }
+.but-chat:hover:after {
+    width: 100%;
+  }
+.but-chat p:hover{
+     color: rgb(51, 179, 211);
+  }
+.but-chat p:before, .but-chat p:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: rgb(51, 179, 211);
+    transition: all 0.3s ease;
+  }
+.but-chat p:before {
+    width: 2px;
+    height: 0%;
+  }
+.but-chat p:after {
+    width: 0%;
+    height: 2px;
+  }
+.but-chat p:hover:before {
+    height: 100%;
+  }
+.but-chat p:hover:after {
+    width: 100%;
+  }
 .but-chat i {
     font-size: 20px;
     margin-left: 5px;

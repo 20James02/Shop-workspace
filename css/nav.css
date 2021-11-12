@@ -4,13 +4,17 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+}
+.navBar {
+  position: absolute;
+  z-index: 3;
 }
 .wrapper{
   background: #171c24;
   /* position: fixed; */
   width: 100%;
   position: fixed;
+  font-family: 'Poppins', sans-serif;
 }
 .wrapper nav{
   position: relative;

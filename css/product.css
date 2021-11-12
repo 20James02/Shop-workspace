@@ -39,7 +39,7 @@ body {
 .preview-thumbnail.nav-tabs img {
 	max-width: 100%;
 	display: block;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 .preview-thumbnail.nav-tabs li a {
 	padding: 0;
@@ -51,15 +51,15 @@ body {
 }
 .tab-content {
 	overflow: hidden;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 .tab-content img {
 	width: 100%;
 	animation-name: opacity;
-    animation-duration: .3s;
+  animation-duration: .3s;
 }
 .name-pro h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 .name-pro i {
     font-size: 12px;
@@ -73,7 +73,6 @@ body {
 }
 .cost-pro p {
     font-size: 40px;
-    
     margin-left: 30px;
 }
 .img-color {
@@ -135,7 +134,8 @@ body {
     margin: 80px 30px 10px;
     border-top: 3px solid rgb(219, 92, 135) ;
 }
-.text-inf {
+.form-inf {
+    text-decoration: none;
     padding-bottom: 20px;
 }
 .button-content {
@@ -299,4 +299,34 @@ body {
 .but-chat i {
     font-size: 20px;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 1400px) {
+  .product {
+    width: 90%;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .color-pro, .size-pro, .quantity, .but-chat {
+    display: none;
+  }
+  .cost-pro {
+    display: flex;
+    margin: 0;
+  }
+  .but-order {
+    display: none;
+  }
+  .product-img {
+    width: 80%;
+    margin-top: 5px;
+  }
+  .tab-content {
+    width: 70%;
+  }
+  .preview {
+    display: flex;
+    flex-direction: row;
+  }
 }

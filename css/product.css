@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(216, 216, 216);
+    background: url(/logo/background.jpg);
     width: 100%;
 }
 .product {
@@ -131,13 +131,49 @@ body {
     border-radius: 5px;
 }
 .inf-product {
+    cursor: default;
     margin: 80px 30px 10px;
-    border-top: 3px solid rgb(219, 92, 135) ;
+}
+.inf-product::before {
+    content: '';
+    display: block;
+    width: 45%;
+    height: 2.5px;
+    background-image: -webkit-linear-gradient(left, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
+    background-image: linear-gradient(to right, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
 }
 .form-inf {
-    text-decoration: none;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    list-style-type: none;
 }
+.form-inf span{
+    position: absolute;
+    left: 500px;
+    color: black;
+}
+.form-inf li{
+    color: rgb(147, 147, 147,0.65);
+    padding: 20px 0 20px 10px;
+}
+.form-inf li:hover {
+    color: rgb(147, 147, 147);
+    box-shadow: 0 0 5px rgba(145, 145, 145, 0.338); 
+}
+.description-product{
+    margin: 80px 30px 10px;  
+}
+.description-text {
+    padding-left: 10px;
+}
+.description-product::before {
+    content: '';
+    display: block;
+    width: 45%;
+    height: 2.5px;
+    background-image: -webkit-linear-gradient(left, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
+    background-image: linear-gradient(to right, #73D2F6, #08C 22%, #7FC400 36%, #FFD583 48%, #FFB21E 63%, #FF4D4D 76%, #503873);
+}
+
 .button-content {
     display: flex;
     justify-content: space-around;

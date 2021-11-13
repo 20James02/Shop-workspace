@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 800px) and (min-width: 450px){
+@media screen and (max-width: 800px) {
     .mySlides  {
         display: none;
     }
@@ -123,4 +123,30 @@
         order: 2;
     }
 
+}
+@media screen and (max-width: 700px){
+    .footer h3, #non-ipad, .footer .team, .contact{
+        display: none;
+    }
+    .info {
+        text-align: center;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .support-list {
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .support-li {
+       text-align: center;
+       width: 50%;
+    }
+    .footer-support {
+        order: 1;
+    }
 }

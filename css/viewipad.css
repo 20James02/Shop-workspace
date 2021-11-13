@@ -1,4 +1,8 @@
 @media screen and (max-width: 1400px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
     .avt {
         width: 72%;
         align-items: center;

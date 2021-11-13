@@ -1,12 +1,12 @@
 body {
-    background: url(/logo/background.jpg);
+    background-image: url(https://anhdep123.com/wp-content/uploads/2020/05/hinh-nen-trang-hoa-van-dep.jpg);
     width: 100%;
+    
 }
 .product {
     width: 60%;
     height: 100%;
     margin: 70px auto;
-
     border-radius: 10px;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -20,10 +20,6 @@ body {
 }
 .container h2 {
     font-family: 'Times New Roman', Times, serif;
-}
-.preview {
-	display: flex;
-	flex-direction: column;
 }
 .product-img {
     margin-top: 50px;
@@ -356,12 +352,12 @@ body {
   }
   .but-order {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 12px;
+    bottom: 12px;
   }
   .but-chat {
     position: fixed;
-    right: 20px;
+    right: 12px;
     bottom: 400px;
     width: 40px;
   }
@@ -392,18 +388,12 @@ body {
   .nav-tabs li {
     width: 42%;
   }
-  }
-  .preview {
-    display: flex;
-    flex-direction: row;
-  }
   .nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 30px;
     margin-top: 0;
-    border: ;
   }
   .nav li {
     margin-bottom: 10px;

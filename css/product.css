@@ -146,8 +146,8 @@ body {
     list-style-type: none;
 }
 .form-inf span{
-   margin-right: 45%;
-   float: right;
+    margin-right: 20%;
+    float: right;
     color: black;
 }
 .form-inf li{

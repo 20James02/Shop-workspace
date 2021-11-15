@@ -18,15 +18,12 @@
         max-width: 95%;
         width: 95%;
     }
-    .accesor .sale-items {
+    .accessory .sale-items {
         display: flex;
         justify-content: center;
     }
-    .accesor .sale-items .items {
+    .accessory .sale-items .items {
             flex-basis: 22%;
-    }
-    .sale-items {
-        
     }
     .sub-items {
         display: grid;

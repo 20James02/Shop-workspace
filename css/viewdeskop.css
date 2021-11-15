@@ -34,7 +34,7 @@
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         margin-top: 36px;
     }
-    .accesor {
+    .accessory {
         margin-left: 40px;
         margin-bottom: 40px;
     }
@@ -450,7 +450,24 @@
         50% {margin-left: -540px;}
         60% {margin-left: -1060px;}
         80% {margin-left: -1080px;}
-    }   
+    }  
+.pagination {
+} 
+.pagition ul {
+    text-transform: none;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.pagition ul li {
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px rgb(134, 22, 22) solid;
+    border-radius: 5px;
+}
+.pagation ul li a {
+    text-decoration: none;
+}
 .footer {
     position: relative;
     width: 100%;

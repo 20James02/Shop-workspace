@@ -62,15 +62,18 @@
         grid-gap: 20px 25px;
         margin: 20px ;
     }
-    
     .items {
         box-sizing: border-box;
         border-radius: 20px;
         overflow: hidden;
         background-color: white;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        
         display: inline-block;
         font-family: 'Times New Roman', Times, serif;
+    }
+    .items:hover {
+        transform: translateY(-5px);
     }
     
     .items-img {
@@ -78,9 +81,9 @@
         background-size: cover;
     }
     
-    .items img {
+.items img {
         object-fit: cover;
-        width: 90%;
+        width: 100%;
        
     }
     .items-content {

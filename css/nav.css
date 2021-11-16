@@ -266,11 +266,12 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .signbutton {
+  margin-top: 10px;
   width: 100%;
 }
 
 .sign {
-  background-color: rgba(228, 235, 245, 0.728);
+  background-color: white;
   padding: 16px;
 }
 .sign-content h1{
@@ -314,16 +315,23 @@ hr {
   margin-bottom: 25px;
 }
 
-.navBar .wrapper .sign-ul #lb1 {
+.navBar .wrapper .sign-ul label {
   position: relative;
   bottom: 100px;
   left: 10px;
 }
 
-.navBar .wrapper input[type=text]:focus + #lb1 {
+.navBar .wrapper input:focus + label {
   bottom: 85px;
   transition: 0.3s ease;
-  background-color: rgb(228, 235, 245);
+  padding: 0 3px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+ 
+}
+
+.navBar .wrapper input {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 

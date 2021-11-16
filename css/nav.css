@@ -230,3 +230,106 @@ nav .content .links{
     padding-right: 30px;
   }
 }
+
+
+
+input[type=text], input[type=password] {
+  width: 95%;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  transition: 0.3s ease;
+  outline: none;
+  border: solid rgba(30, 143, 255, 0.5);
+}
+
+.navBar .wrapper button {
+  background: #171c24;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 17px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.navBar .wrapper button:hover {
+  background: #323c4e;
+}
+
+.signbutton {
+  width: 100%;
+}
+
+.sign {
+  background-color: rgba(228, 235, 245, 0.728);
+  padding: 16px;
+}
+.sign-content h1{
+  text-align: center;
+  padding: 16px;
+  height: 70px;
+}
+
+#attachment {
+  text-align: center;
+  padding: 15px;
+  height: 50px;
+}
+
+#attachment a:hover {
+  text-decoration: underline;
+}
+.sign_form {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #606c85a5 ;
+  padding-top: 50px;
+}
+
+.sign-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 40%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.navBar .wrapper .sign-ul #lb1 {
+  position: relative;
+  bottom: 100px;
+  left: 10px;
+}
+
+.navBar .wrapper input[type=text]:focus + #lb1 {
+  bottom: 85px;
+  transition: 0.3s ease;
+  background-color: rgb(228, 235, 245);
+}
+
+
+
+
+
+
+
+

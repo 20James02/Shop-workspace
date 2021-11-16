@@ -133,7 +133,8 @@
         font-size: 15px;
         color: #fff;
         float: inline-end;
-        
+        position: relative;
+        bottom: 0; 
     }
     .items button:hover {
         background-color: rgb(221, 34, 121);

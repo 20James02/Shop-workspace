@@ -454,18 +454,24 @@
         80% {margin-left: -1080px;}
     }  
 .pagination {
+    width:100%;
 } 
-.pagition ul {
+.pagination ul {
     text-transform: none;
     margin: 10px auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
 }
-.pagition ul li {
+.pagination ul li.pag-item {
     display: inline-block;
+    width: 20px;
+    padding: 3px 4px;
     margin: 0 5px;
     border: 1px rgb(134, 22, 22) solid;
     border-radius: 5px;
+    text-align: center;
 }
 .pagation ul li a {
     text-decoration: none;

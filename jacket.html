@@ -17,56 +17,122 @@
 </head>
 <body>
 <!--Navigation Bar-->
-    <div class="navBar">
-        <div class="wrapper">
-            <nav>
-            <input type="checkbox" id="show-search">
-            <input type="checkbox" id="show-menu">
-            <label for="show-menu" class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-blockquote-right" viewBox="0 0 16 16">
-                <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm10.113-5.373a6.59 6.59 0 0 0-.445-.275l.21-.352c.122.074.272.17.452.287.18.117.35.26.51.428.156.164.289.351.398.562.11.207.164.438.164.692 0 .36-.072.65-.216.873-.145.219-.385.328-.721.328-.215 0-.383-.07-.504-.211a.697.697 0 0 1-.188-.463c0-.23.07-.404.211-.521.137-.121.326-.182.569-.182h.281a1.686 1.686 0 0 0-.123-.498 1.379 1.379 0 0 0-.252-.37 1.94 1.94 0 0 0-.346-.298zm-2.168 0A6.59 6.59 0 0 0 10 6.352L10.21 6c.122.074.272.17.452.287.18.117.35.26.51.428.156.164.289.351.398.562.11.207.164.438.164.692 0 .36-.072.65-.216.873-.145.219-.385.328-.721.328-.215 0-.383-.07-.504-.211a.697.697 0 0 1-.188-.463c0-.23.07-.404.211-.521.137-.121.327-.182.569-.182h.281a1.749 1.749 0 0 0-.117-.492 1.402 1.402 0 0 0-.258-.375 1.94 1.94 0 0 0-.346-.3z"/>
-            </svg></label>
-            <div class="content">
-            <div class="logo"><a href="#">TenTen</a></div>
-                <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#" class="desktop-link">Trang Phục</a>
-                    <input type="checkbox" id="show-features">
-                    <label for="show-features">Trang Phục</label>
-                    <ul>
-                    <li><a href="#">Áo Khoác</a></li>
-                    <li><a href="#">Áo thun</a></li>
-                    <li><a href="#">Quần dài</a></li>
-                    <li><a href="#">Quần short</a></li>
-                    <li><a href="#">Boot</a></li>
-                    <li><a href="#">Sneacker</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" class="desktop-link">Đăng kí/Đăng nhập</a>
-                    <input type="checkbox" id="show-services">
-                    <label for="show-services">Đăng kí/Đăng nhập</label>
-                    <ul>
-                    <li><a href="#">Đăng Kí</a></li>
-                    <li><a href="#">Đăng Nhập</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
-                    <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
-                </svg>
-                    Giỏ Hàng
-                </a></li>
+<div class="navBar">
+    <div class="wrapper">
+        <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-blockquote-right" viewBox="0 0 16 16">
+            <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm10.113-5.373a6.59 6.59 0 0 0-.445-.275l.21-.352c.122.074.272.17.452.287.18.117.35.26.51.428.156.164.289.351.398.562.11.207.164.438.164.692 0 .36-.072.65-.216.873-.145.219-.385.328-.721.328-.215 0-.383-.07-.504-.211a.697.697 0 0 1-.188-.463c0-.23.07-.404.211-.521.137-.121.326-.182.569-.182h.281a1.686 1.686 0 0 0-.123-.498 1.379 1.379 0 0 0-.252-.37 1.94 1.94 0 0 0-.346-.298zm-2.168 0A6.59 6.59 0 0 0 10 6.352L10.21 6c.122.074.272.17.452.287.18.117.35.26.51.428.156.164.289.351.398.562.11.207.164.438.164.692 0 .36-.072.65-.216.873-.145.219-.385.328-.721.328-.215 0-.383-.07-.504-.211a.697.697 0 0 1-.188-.463c0-.23.07-.404.211-.521.137-.121.327-.182.569-.182h.281a1.749 1.749 0 0 0-.117-.492 1.402 1.402 0 0 0-.258-.375 1.94 1.94 0 0 0-.346-.3z"/>
+        </svg></label>
+        <div class="content">
+        <div class="logo"><a href="#">TenTen</a></div>
+            <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#" class="desktop-link">Menu</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">Menu</label>
+                <ul>
+                <li><a href="jacket.html">Jacket</a></li>
+                <li><a href="pants.html">Pants</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="shoes.html">Sneacker</a></li>
+                <li><a href="accessory.html">Accessory</a></li>
+                <li><a href="#">Contact Me</a></li>
                 </ul>
-            </div>
-            <label for="show-search" class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-            </svg></label>
-            <form action="#" class="search-box">
-                <input type="text" placeholder="Type Something to Search..." required>
-            </form>
-            </nav>
+            </li>
+            <!-- <li>
+                <a href="#" class="desktop-link">Đăng kí/Đăng nhập</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Đăng kí/Đăng nhập</label>
+                <ul>
+                <li><a href="#">Đăng Kí</a></li>
+                <li><a href="#">Đăng Nhập</a></li>
+                </ul>
+            </li>-->
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
+            </svg>
+                Your Cart
+            </a></li>
+            </ul>
         </div>
+        <label for="show-search" class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg></label>
+        <form action="#" class="search-box">
+            <input type="text" placeholder="Type Something to Search..." required>
+        </form>
+        <div class="sign-ul">
+            <button id="button1" style="width:100px;">Sign In</button>
+            <div id="id01" class="sign_form">
+            <form class="sign-content" action="/action_page.php">
+                <h1>Sign In</h1>
+                <div class="sign">
+                <hr>
+                <div class="data">
+                    <input type="text" required id="hasagi" autocomplete="off" placeholder="Email or Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email or Phone'">
+                    <label>Email or Phone</label>
+                 </div>
+                 <div class="data">
+                    <input type="password" required id="yasuo" autocomplete="off" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                    <label>Password</label>
+                 </div>
+                 <div class="forgot-pass">
+                    <a href="#">Forgot Password?</a>
+                 </div>
+                <div class="clearfix">
+                    <button type="submit" class="signbutton">Sign In</button>
+                </div>
+                </div>
+                <p id="attachment"> New member? <a style="color: dodgerblue;" onclick="document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='block'">Register here</a></p>
+            </form>
+            </div> 
+            
+            <div id="id02" class="sign_form">
+
+                <form class="sign-content" action="/action_page.php" method="post">
+                    
+                    <h1>Sign Up</h1>
+                    <div class="sign">
+                        <div id="form" class="data">
+                            <input type="text" required id="name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'">
+                            <label>Full Name</label>
+                         </div>
+                         <div id="form" class="data">                              
+                            <input type="text" required id="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
+                            <label>Email</label>
+                         </div>
+                         <div id="form" class="data">
+                            <input type="password" required id="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                            <label>Password</label>
+                         </div>
+                         <div id="form" class="data">
+                            <input type="password" required id="comfirm" placeholder="ComFirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ComFirm Password'">
+                            <label>ComFirm Password</label>
+                         </div>
+                         <div id="form" class="data">
+                            <input type="text" required id="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                            <label>Phone Number</label>
+                         </div>
+                         <div id="form" class="data">
+                            <input type="text" required id="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'">
+                            <label>Address</label>
+                         </div>
+
+                    <button type="submit" class="signbutton">Sign Up</button>
+                    <br>
+                    <p>By creating an account you agree to our <a href="/Tenten/terms_of_use/" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                    </div>
+                    <p id="attachment">Already have an account ? <a id="button1" style="color: dodgerblue;" onclick="document.getElementById('id02').style.display='none',document.getElementById('id01').style.display='block'">Sign In</a></p>
+                </form>
+                </div>
+            </div>         
+        </nav>
+
     </div>
+</div>
 <!--Category-->
     <div class="category">
         <p>Category</p>
@@ -375,7 +441,21 @@
                     </div>    
                 </div>
             </div>
+            <div class="pagination">
+            <ul>
+                <li class="pag-item">
+                    <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                </li>
+                <li class="pag-item"><a href="#">1</a></li>
+                <li class="pag-item"><a href="#">2</a></li>
+                <li class="pag-item"><a href="#">3</a></li>
+                <li>...</li>
+                <li class="pag-item"><a href="#">5</a></li>
+                <li class="pag-item"><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+            </ul>
+            </div>
         </div>
+        
     </div>
     <div class="list accesor">
         <div class="name-list">
@@ -480,19 +560,7 @@
             </div>
         </div>
     </div>
-    <div class="pagination">
-        <ul>
-            <li class="pag-item">
-                <a href="#"><i></i></a>
-            </li>
-            <li class="pag-item"><a href="#">1</a></li>
-            <li class="pag-item"><a href="#">2</a></li>
-            <li class="pag-item"><a href="#">3</a></li>
-            <li>...</li>
-            <li class="pag-item"><a href="#">5</a></li>
-            <li class="pag-item"><a href="#"><i></i></a></li>
-        </ul>
-    </div>
+    
 <!--Footer-->
     <div class="footer">
         <div class="footer-container">
@@ -534,7 +602,7 @@
             <div class="contact">
                 <h3>Get The App</h3>
                 <div class="com">
-                    <img src="logo/test.png" alt="Logo" style="width: 100px;height: 100px;" >
+                    <img src="logo/logo.jpg" alt="Logo" style="width: 100px;height: 100px;" >
                     <div class="com app">
                         <a rel="noreferrer" href="https://play.google.com/" target="_blank" title="Facebook">
                             <img src="logo/apk.jpg" alt>

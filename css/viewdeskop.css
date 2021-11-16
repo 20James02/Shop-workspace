@@ -145,7 +145,7 @@
 .bigSlides {
     width: 100%;
     height: 400px;
-    max-width: 100%;
+    max-width: 1530px;
     margin-top: 75px;
     overflow-x: hidden;
     border-radius: 10px;
@@ -159,7 +159,7 @@
     height: 100px;
     margin-left: 20px;
     font-size: 50px;
-    color: white;
+    color: rgb(175, 60, 89);
 }
 .slide-wrapper-text {
     width: 6120px;
@@ -180,25 +180,27 @@
 .slide {
     float: left;
     margin-left: 20px;
+    width: 24.5%;
+    height: 40%;
 }
 .slide img {
-    width: 1530px;
+    width: 100%;
     height: 400px;
     border-radius: 10px;
 }
 .slide-wrapper {
-    width: 6120px;
+    width: 400%;
     overflow: hidden;
     position: absolute;
     -webkit-animation: slide 18s ease-in-out infinite;
     
 }
 @-webkit-keyframes slide {
-    20% {margin-left: -25px;}
-    30% {margin-left: -1560px;}
-    50% {margin-left: -1570px;}
-    60% {margin-left: -3110px;}
-    80% {margin-left: -3125px;}
+    20% {margin-left: -1%;}
+    30% {margin-left: -99%;}
+    50% {margin-left: -100.5%;}
+    60% {margin-left: -199%;}
+    80% {margin-left: -201%;}
 }
 .mySlides {
         float: left;

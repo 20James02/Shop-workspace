@@ -240,8 +240,6 @@ nav .wrapper .search-icon {
   }
 }
 
-
-
 input[type=text], input[type=password] {
   width: 95%;
   border-radius: 5px;
@@ -258,6 +256,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .navBar .wrapper button {
+  font-family: 'Poppins', sans-serif ;
   background: #171c24;
   color: #fff;
   font-size: 18px;

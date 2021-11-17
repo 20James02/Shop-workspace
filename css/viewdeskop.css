@@ -471,11 +471,27 @@
     height: 30px;
     padding: 3px 4px;
     margin: 0 5px;
+<<<<<<< HEAD
     border: 1px rgb(123, 26, 26) solid;
+=======
+>>>>>>> dc8eeb5 (.)
     border-radius: 5px;
     text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+<<<<<<< HEAD
 .pagination ul li a {
+=======
+.pagination ul li.pag-item:hover {
+    background-color: rgb(221, 102, 102);
+    
+}
+.pagination ul li.pag-item a:hover {
+    color:rgb(255, 255, 255);
+}
+.pagation ul li.pag-item a {
+>>>>>>> dc8eeb5 (.)
+
     text-decoration: none;
 }
 .pagination ul li:hover{

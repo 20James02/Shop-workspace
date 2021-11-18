@@ -32,6 +32,7 @@ nav .content{
 nav .content .links{
   margin-left: 80px;
   display: flex;
+  align-content: center;
 }
 .content .logo a{
   color: #fff;
@@ -71,7 +72,8 @@ nav .link li:hover {
   transform: translate(1.1);
   box-shadow: rgba(231, 231, 231, 0.2) 0px 7px 29px 0px;;
 }
-nav .wrapper .search-icon {
+.wrapper nav .search-icon {
+  align-self: flex-end;
 }
 .wrapper .menu-icon{
   display: none;
@@ -239,6 +241,8 @@ nav .wrapper .search-icon {
   }
 }
 
+
+
 input[type=text], input[type=password] {
   width: 95%;
   border-radius: 5px;
@@ -255,7 +259,6 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .navBar .wrapper button {
-  font-family: 'Poppins', sans-serif ;
   background: #171c24;
   color: #fff;
   font-size: 18px;
@@ -328,8 +331,8 @@ hr {
   left: 10px;
   
 }
-.navBar .wrapper .sign-ul {
-  float: right;
+.wrapper nav .sign-ul {
+  justify-self: flex-end;
 }
 
 .navBar .wrapper input:focus + label {

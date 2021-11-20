@@ -44,6 +44,10 @@
     .sl1, .sl2, .sl3, .sl4, .sl7, .sl9, .sl10, .sl12 {
         display: none;
     }
+    .accesor {
+        margin-left: 28px;   
+    }
+/*<!--Footer-Reponsive-->*/
     .footer {
         width: 100%;
     }
@@ -68,9 +72,7 @@
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    .accesor {
-        margin-left: 28px;   
-    }
+ /*<!--Footer-End-->*/   
 }
 
 @media screen and (max-width: 800px) {
@@ -94,6 +96,7 @@
     .info {
         text-align: center;
     }
+/*<!--Footer-Reponsive-->*/  
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -119,12 +122,13 @@
     .contact_info {
         order: 2;
     }
-
+ /*<!--Footer-End-->*/   
 }
 @media screen and (max-width: 700px){
     * {
         font-size: 15px;
     }
+/*<!--Footer-Reponsive-->*/  
     .footer h3, #non-ipad, .footer .team, .contact{
         display: none;
     }
@@ -149,6 +153,7 @@
     .footer-support {
         order: 1;
     }
+ /*<!--Footer-End-->*/ 
     #non-ip {
         display: none;
     }

@@ -485,6 +485,7 @@
 .pagation ul li.pag-item a {
     text-decoration: none;
 }
+/*<!--Footer-Start-->*/
 .footer {
     position: relative;
     width: 100%;
@@ -536,10 +537,12 @@
     text-decoration: none;
     color: rgba(128, 128, 128, 0.509);
   } 
+/*<!--Footer-End-->*/
 @media  screen and (min-width: 1400px) {
     .hid {
         display: none;
     }
+/*<!--Footer-Reponsive-->*/
     .footer .footer-container{
         display: flex;
         flex-wrap: wrap;
@@ -562,4 +565,5 @@
     .contact {
         flex-basis: 20%;
     }
+/*<!--Footer-End-->*/
 }

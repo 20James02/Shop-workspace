@@ -63,15 +63,15 @@
                     <div class="sign">
                     <hr>
                     <div class="data">
-                        <input type="text" required id="hasagi" autocomplete="off" placeholder="Email or Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email or Phone'">
+                        <input type="text" required autocomplete="off" placeholder="Email or Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email or Phone'">
                         <label>Email or Phone</label>
                      </div>
                      <div class="data">
-                        <input type="password" required id="yasuo" autocomplete="off" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                        <input type="password" required autocomplete="off" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
                         <label>Password</label>
                      </div>
                      <div class="forgot-pass">
-                        <a href="#">Forgot Password?</a>
+                        <a  style="color: dodgerblue;" href="#">Forgot Password?</a>
                      </div>
                     <div class="clearfix">
                         <button type="submit" class="signbutton">Sign In</button>
@@ -81,32 +81,29 @@
                 </form>
                 </div> 
                 <div id="id02" class="sign_form">
-                    <form class="sign-content" action="/action_page.php" method="post">
+                    <form class="sign-content" name="register" onsubmit="return getinput()">                    
                         <h1>Sign Up</h1>
                         <div class="sign">
-                            <div id="form" class="data">
-                                <input type="text" required id="name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'">
+                        <hr>
+                            <div id="form" class="data" >
+                                <input type="text" id="name" autocomplete="off" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'">
                                 <label>Full Name</label>
                              </div>
                              <div id="form" class="data">                              
-                                <input type="text" required id="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
+                                <input type="text" id="email" autocomplete="off" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
                                 <label>Email</label>
                              </div>
                              <div id="form" class="data">
-                                <input type="password" required id="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                                <input type="password" id="password" autocomplete="off" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
                                 <label>Password</label>
                              </div>
                              <div id="form" class="data">
-                                <input type="password" required id="comfirm" placeholder="ComFirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ComFirm Password'">
-                                <label>ComFirm Password</label>
+                                <input type="password" id="comfirm" autocomplete="off" placeholder="Comfirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ComFirm Password'">
+                                <label>Comfirm Password</label>
                              </div>
                              <div id="form" class="data">
-                                <input type="text" required id="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                                <input type="text" id="phone" autocomplete="off" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
                                 <label>Phone Number</label>
-                             </div>
-                             <div id="form" class="data">
-                                <input type="text" required id="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'">
-                                <label>Address</label>
                              </div>
                         <button type="submit" class="signbutton">Sign Up</button>
                         <br>

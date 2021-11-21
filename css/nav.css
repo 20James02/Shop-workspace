@@ -242,8 +242,8 @@ nav .link li:hover {
 }
 
 
-
-input[type=text], input[type=password] {
+/*Login-Start*/
+input {
   width: 95%;
   border-radius: 5px;
   padding: 15px;
@@ -252,7 +252,7 @@ input[type=text], input[type=password] {
   border: none;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input:focus {
   transition: 0.3s ease;
   outline: none;
   border: solid rgba(30, 143, 255, 0.5);
@@ -261,7 +261,7 @@ input[type=text]:focus, input[type=password]:focus {
 .navBar .wrapper button {
   background: #171c24;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   padding: 9px 17px;
   border-radius: 5px;
@@ -282,11 +282,11 @@ input[type=text]:focus, input[type=password]:focus {
 
 .sign {
   background-color: white;
-  padding: 16px;
+  padding: 20px;
 }
 .sign-content h1{
   text-align: center;
-  padding: 16px;
+  padding: 20px;
   height: 70px;
 }
 
@@ -320,16 +320,16 @@ input[type=text]:focus, input[type=password]:focus {
   width: 40%;
 }
 
-hr {
+.navBar .wrapper hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .navBar .wrapper .sign-ul label {
   position: relative;
   bottom: 100px;
   left: 10px;
-  
+  transition: 0.3s ease;
 }
 .wrapper nav .sign-ul {
   justify-self: flex-end;
@@ -341,13 +341,12 @@ hr {
   padding: 0 3px;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 3px;
- 
 }
 
 .navBar .wrapper input {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
+/*Login-End*/
 
 
 

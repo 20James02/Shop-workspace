@@ -119,6 +119,9 @@ body {
     display: flex;
     margin: 0;
 }
+.items .items-button button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .items button {
     border: none;
     cursor: pointer;

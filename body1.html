@@ -7,8 +7,7 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/viewdeskop.css">
-    <link rel="stylesheet" href="./css/viewipad.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="https://animetvn.com/images/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -43,15 +42,6 @@
                     <li><a href="#">Contact Me</a></li>
                     </ul>
                 </li>
-                <!-- <li>
-                    <a href="#" class="desktop-link">Đăng kí/Đăng nhập</a>
-                    <input type="checkbox" id="show-services">
-                    <label for="show-services">Đăng kí/Đăng nhập</label>
-                    <ul>
-                    <li><a href="#">Đăng Kí</a></li>
-                    <li><a href="#">Đăng Nhập</a></li>
-                    </ul>
-                </li>-->
                 <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
                     <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
                 </svg>
@@ -90,11 +80,8 @@
                     <p id="attachment"> New member? <a style="color: dodgerblue;" onclick="document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='block'">Register here</a></p>
                 </form>
                 </div> 
-                
                 <div id="id02" class="sign_form">
-
                     <form class="sign-content" action="/action_page.php" method="post">
-                        
                         <h1>Sign Up</h1>
                         <div class="sign">
                             <div id="form" class="data">
@@ -121,7 +108,6 @@
                                 <input type="text" required id="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'">
                                 <label>Address</label>
                              </div>
-
                         <button type="submit" class="signbutton">Sign Up</button>
                         <br>
                         <p>By creating an account you agree to our <a href="/Tenten/terms_of_use/" style="color:dodgerblue">Terms & Privacy</a>.</p>
@@ -131,7 +117,6 @@
                     </div>
             </div>         
             </nav>
-
         </div>
     </div>
     
@@ -176,7 +161,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -192,7 +177,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -208,7 +193,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -224,7 +209,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -240,7 +225,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -256,7 +241,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items hid">
@@ -272,7 +257,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items hid">
@@ -288,7 +273,7 @@
                     </div>
                     <div class="items-button">
                         <button id="non-ip" class="items-button1">Add to card</button>
-                        <button onclick="window.open('product-demo.html');">Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
             </div>

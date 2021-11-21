@@ -7,13 +7,12 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/viewdeskop.css">
-    <link rel="stylesheet" href="./css/viewipad.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/category.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="https://animetvn.com/images/favicon.ico" />
     <!-- Bootstrap CSS -->
-    <title>TenTen shop</title>
+    <title>Accessory - TENTEN</title>
 </head>
 <body>
 <!--Navigation Bar-->
@@ -30,31 +29,22 @@
                 <ul class="links">
                 <li><a href="#">Home</a></li>
                 <li>
-                    <a href="#" class="desktop-link">Trang Phục</a>
+                    <a href="#" class="desktop-link">Menu</a>
                     <input type="checkbox" id="show-features">
-                    <label for="show-features">Trang Phục</label>
+                    <label for="show-features">Menu</label>
                     <ul>
-                    <li><a href="#">Áo Khoác</a></li>
-                    <li><a href="#">Áo thun</a></li>
-                    <li><a href="#">Quần dài</a></li>
-                    <li><a href="#">Quần short</a></li>
-                    <li><a href="#">Boot</a></li>
-                    <li><a href="#">Sneacker</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" class="desktop-link">Đăng kí/Đăng nhập</a>
-                    <input type="checkbox" id="show-services">
-                    <label for="show-services">Đăng kí/Đăng nhập</label>
-                    <ul>
-                    <li><a href="#">Đăng Kí</a></li>
-                    <li><a href="#">Đăng Nhập</a></li>
+                    <li><a href="jacket.html">Jacket</a></li>
+                    <li><a href="pants.html">Pants</a></li>
+                    <li><a href="shoes.html">Shoes</a></li>
+                    <li><a href="shoes.html">Sneacker</a></li>
+                    <li><a href="accessory.html">Accessory</a></li>
+                    <li><a href="#">Contact Me</a></li>
                     </ul>
                 </li>
                 <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
                     <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383L5.93 1.757zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0v-2zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1z"/>
                 </svg>
-                    Giỏ Hàng
+                    Your Cart
                 </a></li>
                 </ul>
             </div>
@@ -64,6 +54,67 @@
             <form action="#" class="search-box">
                 <input type="text" placeholder="Type Something to Search..." required>
             </form>
+            <div class="sign-ul">
+                <button id="button1" style="width:100px;">Sign In</button>
+                <div id="id01" class="sign_form">
+                <form class="sign-content" action="/action_page.php">
+                    <h1>Sign In</h1>
+                    <div class="sign">
+                    <hr>
+                    <div class="data">
+                        <input type="text" required id="hasagi" autocomplete="off" placeholder="Email or Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email or Phone'">
+                        <label>Email or Phone</label>
+                    </div>
+                    <div class="data">
+                        <input type="password" required id="yasuo" autocomplete="off" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                        <label>Password</label>
+                    </div>
+                    <div class="forgot-pass">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <div class="clearfix">
+                        <button type="submit" class="signbutton">Sign In</button>
+                    </div>
+                    </div>
+                    <p id="attachment"> New member? <a style="color: dodgerblue;" onclick="document.getElementById('id01').style.display='none',document.getElementById('id02').style.display='block'">Register here</a></p>
+                </form>
+                </div> 
+                <div id="id02" class="sign_form">
+                    <form class="sign-content" action="/action_page.php" method="post">
+                        <h1>Sign Up</h1>
+                        <div class="sign">
+                            <div id="form" class="data">
+                                <input type="text" required id="name" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'">
+                                <label>Full Name</label>
+                            </div>
+                            <div id="form" class="data">                              
+                                <input type="text" required id="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
+                                <label>Email</label>
+                            </div>
+                            <div id="form" class="data">
+                                <input type="password" required id="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                                <label>Password</label>
+                            </div>
+                            <div id="form" class="data">
+                                <input type="password" required id="comfirm" placeholder="ComFirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ComFirm Password'">
+                                <label>ComFirm Password</label>
+                            </div>
+                            <div id="form" class="data">
+                                <input type="text" required id="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                                <label>Phone Number</label>
+                            </div>
+                            <div id="form" class="data">
+                                <input type="text" required id="address" placeholder="Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'">
+                                <label>Address</label>
+                            </div>
+                        <button type="submit" class="signbutton">Sign Up</button>
+                        <br>
+                        <p>By creating an account you agree to our <a href="/Tenten/terms_of_use/" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                        </div>
+                        <p id="attachment">Already have an account ? <a id="button1" style="color: dodgerblue;" onclick="document.getElementById('id02').style.display='none',document.getElementById('id01').style.display='block'">Sign In</a></p>
+                    </form>
+                    </div>
+            </div>         
             </nav>
         </div>
     </div>
@@ -100,7 +151,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -116,7 +167,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -132,7 +183,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -148,7 +199,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -164,7 +215,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -180,7 +231,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -197,7 +248,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -213,7 +264,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -229,7 +280,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -245,7 +296,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -261,7 +312,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -277,7 +328,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -294,7 +345,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -310,7 +361,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -326,7 +377,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -342,7 +393,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -358,7 +409,7 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
                 <div class="items">
@@ -374,9 +425,22 @@
                     </div>
                     <div class="items-button">
                         <button class="items-button1">Add to card</button>
-                        <button>Order</button>
+                        <button class="items-button2" onclick="location.href='#';">Order</button>
                     </div>    
                 </div>
+            </div>
+            <div class="pagination">
+                <ul>
+                    <li class="pag-item">
+                        <a href="#"><i></i></a>
+                    </li>
+                    <li class="pag-item"><a href="#">1</a></li>
+                    <li class="pag-item"><a href="#">2</a></li>
+                    <li class="pag-item"><a href="#">3</a></li>
+                    <li>...</li>
+                    <li class="pag-item"><a href="#">5</a></li>
+                    <li class="pag-item"><a href="#"><i></i></a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -398,7 +462,7 @@
                 </div>
                 <div class="items-button">
                     <button class="items-button1">Add to card</button>
-                    <button>Order</button>
+                    <button class="items-button2" onclick="location.href='#';">Order</button>
                 </div>    
             </div>
             <div class="items">
@@ -414,7 +478,7 @@
                 </div>
                 <div class="items-button">
                     <button class="items-button1">Add to card</button>
-                    <button>Order</button>
+                    <button class="items-button2" onclick="location.href='#';">Order</button>
                 </div>    
             </div>
             <div class="items">
@@ -430,7 +494,7 @@
                 </div>
                 <div class="items-button">
                     <button class="items-button1">Add to card</button>
-                    <button>Order</button>
+                    <button class="items-button2" onclick="location.href='#';">Order</button>
                 </div>    
             </div>
             <div class="items">
@@ -446,7 +510,7 @@
                 </div>
                 <div class="items-button">
                     <button class="items-button1">Add to card</button>
-                    <button>Order</button>
+                    <button class="items-button2" onclick="location.href='#';">Order</button>
                 </div>    
             </div>
             <div class="items hid-1">
@@ -462,12 +526,12 @@
                 </div>
                 <div class="items-button">
                     <button class="items-button1">Add to card</button>
-                    <button>Order</button>
+                    <button class="items-button2" onclick="location.href='#';">Order</button>
                 </div>    
             </div>
             <div class="items hid-1">
                 <div class="items-img">
-                    <img src="./Photo/accessories/sp1-1.jpg" >
+                    <img src="./Photo/accessories/sp1-1.png" >
                 </div>
                 <div class="items-content">
                     <a href="#" class="items-title name-pro">Diamond Dentures</a>
@@ -478,7 +542,7 @@
                 </div>
                 <div class="items-button">
                     <button class="items-button1">Add to card</button>
-                    <button>Order</button>
+                    <button class="items-button2" onclick="location.href='#';">Order</button>
                 </div>    
             </div>
         </div>
@@ -496,6 +560,7 @@
             <li class="pag-item"><a href="#"><i></i></a></li>
         </ul>
     </div>
+    <br>
 <!--Footer-->
     <div class="footer">
         <div class="footer-container">

@@ -280,9 +280,49 @@ input:focus {
   width: 100%;
 }
 
+.data.success input {
+  border: solid 1px;
+  border-color: #2ecc71;
+}
+
+.data.error input {
+  border: solid 1px;
+  border-color: #d0021b;
+}
+
+.data.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.data.error i.fa-exclamation-circle {
+  color: #d0021b;
+  visibility: visible;
+}
+.data .message {
+  position: relative;
+  font-size: 14px;
+  bottom: 45px;
+  left: 10px;
+  visibility: hidden;
+}
+
+.data.error .message {
+  visibility: visible;
+  color: #d0021b;
+}
+.data i {
+  position: relative;
+  left: 465px;
+  top: 40px;
+  visibility: hidden;
+ }
 .sign {
   background-color: white;
   padding: 20px;
+}
+.navBar .wrapper .data{
+  height: 110px;
 }
 .sign-content h1{
   text-align: center;

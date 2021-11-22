@@ -7,60 +7,89 @@ function getinput() {
     var phone = document.forms["register"]["phone"];
 
     if (name.value == "") {
-        window.alert("Please enter your name.");
+        setErrorFor(name, "Please enter your name."); 
         name.focus();
         return false;
     }
     else if (!Namecheck(name.value)){
-        window.alert("Invalid name.");
+        setErrorFor(name, "Invalid name."); 
         name.focus();
         return false;
     }
+    else {
+        setSuccessFor(name);
+    }
 
     if (email.value == "") {
-        window.alert("Please enter a valid e-mail address.");
+        setErrorFor(email, "Please enter a valid e-mail address.");
         email.focus();
         return false;
     }
     else if (!Emailcheck(email.value)){
-        window.alert("Not a valid email.");
+        setErrorFor(email, "Not a valid email.");
         email.focus();
         return false;
     }
+    else {
+      setSuccessFor(email);
+    }
+
     if (password.value == "") {
-        window.alert("Please enter your password");
+        setErrorFor(password, "Please enter your password");
         password.focus();
         return false;
     }
     else if (!Passwordcheck(password.value)){
-        window.alert("Password not strong.\n*At least 8 characters—the more characters, the better.\n*Uses uppercase and lowercase letters, numbers and special symbols.\n*Inclusion of at least one special character, e.g., ! @ # ? ]");
+        setErrorFor(password, "Password not strong.");   /*\n*At least 8 characters—the more characters, the better.\n*Uses uppercase and lowercase letters, numbers and special symbols.\n*Inclusion of at least one special character, e.g., ! @ # ? ]");*/
         password.focus();
         return false;
     }
+    else {
+      setSuccessFor(password);
+    }
 
     if (comfirm.value == "") {
-        window.alert("Please enter your password comfirm");
+        setErrorFor(comfirm, "Please enter your password comfirm");
         comfirm.focus();
         return false;
     }
 
     if (comfirm.value != password.value) {
-        window.alert("Passwords must match.");
+        setErrorFor(comfirm, "Passwords must match.");
         comfirm.focus();
         return false;
     }
+    else {
+      setSuccessFor(comfirm);
+    }
 
     if (phone.value == "") {
-        window.alert("Please enter your telephone number.");puu
+        setErrorFor(phone, "Please enter your telephone number.");
         phone.focus();
         return false;
     }
     else if (!Phonecheck(phone.value)){
-        window.alert("Not a valid Phone.");
+        setErrorFor(phone, "Not a valid Phone.");
         phone.focus();
         return false;
     }
-    return true; 
+    else {
+      setSuccessFor(phone);
+    }
+    return  window.alert("Register Complete."); 
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement;
+  formControl.className = "data success";
+}
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector(".message");
+
+  small.innerText = message;
+  formControl.className = "data error";
 }
 
 function Emailcheck(email) {

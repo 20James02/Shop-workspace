@@ -645,14 +645,6 @@ body {
     .contact {
         display: none;
     }
-    .contact-info {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    .footer-support {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
  /*<!--Footer-End-->*/   
 }
 

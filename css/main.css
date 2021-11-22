@@ -74,7 +74,6 @@ body {
 .items:hover {
     transform: translateY(-5px);
 }
-
 .items-img {
     text-align: center;
     background-size: cover;
@@ -627,7 +626,7 @@ body {
         display: none;
     }
     .accesor {
-        margin-left: 28px;   
+        margin-left: 0 auto;   
     }
 /*<!--Footer-Reponsive-->*/
     .footer {

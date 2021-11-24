@@ -4,18 +4,23 @@ body {
     box-sizing: border-box;
 }
 .formOrder {
+    display: none;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    z-index: 3;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 0;
+    margin: 0;
+}
+form {
     width: 40%;
     height: 700px;
     margin: 60px auto 0;
     background-color: rgb(255, 211, 217);
     border-radius: 10px;
-    position: fixed;
-    top: 1%;
-    left: 30%;
-    display: none;
     opacity: 1;
-}
-form {
     text-align: center;
 }
 form h2 {
@@ -57,9 +62,12 @@ form p {
     text-align: left;
     width: 70%;
     margin-left: 40px;
-    line-height: 10px;
+    line-height: 40px;
     font-size: 20px;
 }   
+.text-in4 p {
+    margin-top: 10px;
+}
 .order-data {
     width: 100%;
     margin-top: 60px;
@@ -81,7 +89,7 @@ input:focus + label {
     bottom: 85px;
     transition: 0.3s ease;
     padding: 0 3px;
-    background-image: linear-gradient( to bottom,rgba(255, 194, 202, 0.849), white);
+    background-image: linear-gradient( to bottom,rgb(255, 211, 217), white);
     border-radius: 3px;
     border: none;
 }
@@ -112,7 +120,6 @@ select {
     border: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
 .data {
     display: inline-block;
 }
@@ -123,7 +130,7 @@ select {
 }
 .size {
     width: 48%;
-    margin-top: 5px;
+    margin-top: 20px;
     float: left;
 }
 .size h3 {
@@ -152,14 +159,14 @@ select {
 .quantity {
     width: 50%;
     float: right;
-    margin-top: 8px;
-
+    margin-top: 20px;
 }
 .quantity .quantity-select {
     text-align: center;
     display: flex;
     width: 75%;
     margin-left: 25px;
+    margin-top: 20px;
     justify-content: space-around;
 }
 .quantity input {
@@ -197,20 +204,21 @@ input[type="number"] {
 .sale-code {
     width: 50%;
     float: left;
-    margin-bottom: 10px;
+    margin-top: 30px;
 }
 .sale-code select {
     width: 80%;
     position: unset;
     float: left;
     margin-left: 18px;
+    margin-top: 20px;
 }
 .sum-order {
     width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px; 
 }
 .sum-order span {
     font-size: 20px;
@@ -233,8 +241,8 @@ input[type="number"] {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     position: relative;
-    left: 50px;
-    top: 30px;
+    left: 70px;
+    top: 50px;
 }
 .close-order:hover {
     background-color: rgb(47, 221, 221);

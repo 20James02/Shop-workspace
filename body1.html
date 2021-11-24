@@ -18,6 +18,10 @@
     <title>TenTen Store</title>
 </head>
 <body>
+
+    <div class="home">
+
+    </div>
 <!--Navigation Bar-->
     <div class="navBar">
         <div class="wrapper">
@@ -172,7 +176,7 @@
                         <input type="text" id="phone" autocomplete="off" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
                         <label>Phone Number</label>
                         <select class="data" id="province">
-                            <option value="" disabled selected hidden>Province</option>
+                            <option style="color: rgb(170, 170, 170);" value="" disabled selected hidden>Province</option>
                             <option value="1">Ha Noi</option>
                             <option value="2">Ho Chi Minh City</option>
                             <option value="3">Da Nang</option>
@@ -187,6 +191,14 @@
                                 <button class="sec-sz">M</button>
                                 <button class="sec-sz">L</button>
                                 <button class="sec-sz">XL</button>
+                                <script>
+                                    const size = document.querySelectorAll(".sec-sz");
+                                    size.forEach((select) => select.addEventListener("click", function (event) {
+                                    size.forEach((el) => el.classList.remove("select"));
+                                    event.target.classList.add("select");
+                                        })
+                                    );
+                                </script>
                         </div>
                         <div class="quantity">
                                 <h3>Quantity</h3>

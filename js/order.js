@@ -1,9 +1,4 @@
-const size = document.querySelectorAll(".sec-sz");
-size.forEach((select) => select.addEventListener("click", function (event) {
-    size.forEach((el) => el.classList.remove("select"));
-    event.target.classList.add("select");
-    })
-);
+
 
 var i = 0;
     function add() {
@@ -21,7 +16,13 @@ var i = 0;
         document.getElementById('numValue').value = i;
     }
 
-    
 function openOrder() {
-    document.getElementById("id03").style.display = "block";
+    document.getElementById("id03").style.display = 'block';
+    document.getElementById("home").style.display = 'none';
 }
+window.onclick = function(event1) {
+    var c = document.getElementById('id03');
+    if (event1.target == c) {
+      c.style.display = "none";
+    }
+  }

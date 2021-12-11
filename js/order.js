@@ -1,5 +1,4 @@
 
-
 var i = 0;
     function add() {
         if( i == 6){
@@ -26,3 +25,5 @@ window.onclick = function(event1) {
       c.style.display = "none";
     }
   }
+
+//Valition form order
